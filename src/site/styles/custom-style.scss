@@ -14,7 +14,10 @@ body {
         color: #ffffff;
     }
     h1 {
-        color: #ffffff;
+        color: #ffffff !important;
+    }
+    ul li, ol li {
+      color: white !important;
     }
     
 }
