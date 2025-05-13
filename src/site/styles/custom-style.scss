@@ -30,5 +30,9 @@ body {
     .filetree-sidebar {
         width: 350px;
     }
-    
+    table {
+      display: block;
+      overflow-x: auto;
+      max-width: 100%;
+    }
 }
