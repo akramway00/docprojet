@@ -17,5 +17,15 @@ body {
     ul li, ol li {
       color: white !important;
     }
+    a {
+      background: none !important;
+      text-decoration: none !important;
+      box-shadow: none !important;
+    }
+
+    a:hover {
+      background: none !important;
+      box-shadow: none !important;
+    }
     
 }
