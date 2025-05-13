@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/projet3-cyber-city/documentation-page-principal/","tags":["gardenEntry"]}
 ---
 
-# Documentation : Introduction au Projet
+# Introduction au Projet
 
 Bienvenue dans la documentation de CyberCity. Ce projet est une application web complète permettant de créer, gérer et jouer à des jeux de plateau en temps réel. L'application est construite sur une architecture client-serveur moderne, utilisant Angular pour le frontend et Node.js avec TypeScript pour le backend.
 # Architecture Globale
@@ -31,7 +31,7 @@ La communication entre le client et le serveur se fait principalement de deux ma
     - Endpoints exposés par le `GameManagerController`
     - Utilisée principalement pour la gestion administrative des jeux
     
-2. **WebSockets (Socket.IO)** : Communication bidirectionnelle en temps réel
+2. **WebSockets (Socket IO)** : Communication bidirectionnelle en temps réel
     - Utilisée pour toutes les interactions de jeu (déplacements, combats, chat)
     - Mise à jour instantanée de l'état du jeu pour tous les joueurs
     - Système d'événements et de salles pour isoler les communications par partie
